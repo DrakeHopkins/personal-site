@@ -1,3 +1,95 @@
+
+
 body {
-    background-color: white;
+    background-color: #071C21;
+    font-family: 'VT323', monospace;
+}
+
+.navbar-brand {
+    color: #C6DE41;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler {
+    color: #C6DE41;
+}
+
+.nav-link {
+    color: #C6DE41;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+.profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    height: auto;
+    padding-top: 5%;
+}
+
+.intro-text {
+    color: #C6DE41;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.about-me {
+    color: #C6DE41;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+a {
+    color: #C6DE41;
+}
+
+a:hover {
+    color: white;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.fa-brands {
+    padding-top: 5%;
+}
+
+.hr-divide {
+    width: 50%;
+    border-style: dotted none none;
+    border-width: 2.5rem;
+    border-color: #C6DE41;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section {
+    text-align: center;
+    color: #C6DE41;
+    text-decoration: underline;
+    font-size: 4rem;
+}
+
+.list {
+    text-align: center;
+    color: #C6DE41;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: table;
+    margin: 0 auto;
+}
+
+.list-item {
+    color: white;
+    font-size: 1.5rem;
 }

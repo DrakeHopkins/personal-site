@@ -1,12 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=VT323&display=swap" rel="stylesheet">
+
+
     <title>Drake Hopkins</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">{Drake Hopkins}</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="projects.html" target="_blank">{Projects}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" target="_blank">{CV}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Introduction -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="assets/images/myphoto.png" alt="Drake Hopkins Profile Image" class="profile-image">
+            </div>
+            <div class="col-lg-4">
+                <h1 class="intro-text">Hello<br>I'm Drake</h1>
+            </div>
+            <div class="col-lg-4">
+                <p class="about-me">
+                    Panama City Beach, FL
+                    <br>
+                    (870) 273-2315
+                    <br>
+                    <a href="mailto:drakehopkins@outlook.com">drakehopkins@outlook.com</a>
+                    <br>
+                    <div class="row social-links">
+                        <div class="col-lg-4">
+                            <a href="https://github.com/drakehopkins" target="_blank"><i
+                                    class="fa-brands fa-github fa-4x"></i></a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="https://www.linkedin.com/in/drakehopkins/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-4x"></i></a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="https://www.instagram.com/drakelhopkins/" target="_blank"><i
+                                    class="fa-brands fa-instagram fa-4x"></i></a>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <hr class="hr-divide">
+
+
+    <!-- Certifications -->
+    <div class="container-fluid">
+        <h1 class="section">
+            Certifications
+        </h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {CompTIA Security+}
+                    <br>
+                    Completed: TBA
+                    <em>
+                        <ul class="list-item">Attacks, Threats and Vulnerabilities</ul>
+                        <ul class="list-item">Architecture and Design</ul>
+                        <ul class="list-item">Implementation</ul>
+                        <ul class="list-item">Operations and Incident Reports</ul>
+                        <ul class="list-item">Governance, Risk and Compliance</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {CompTIA Network+}
+                    <br>
+                    Completed: TBA
+                    <em>
+                        <ul class="list-item">Networking Fundamentals</ul>
+                        <ul class="list-item">Network Implementations</ul>
+                        <ul class="list-item">Network Operations</ul>
+                        <ul class="list-item">Network Security</ul>
+                        <ul class="list-item">Network Troubleshooting</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {CompTIA A+}
+                    <br>
+                    Completed: TBA
+                    <em>
+                        <ul class="list-item">Hardware</ul>
+                        <ul class="list-item">Operating Systems</ul>
+                        <ul class="list-item">Software Troubleshooting</ul>
+                        <ul class="list-item">Networking</ul>
+                        <ul class="list-item">Troubleshooting</ul>
+                        <ul class="list-item">Security</ul>
+                        <ul class="list-item">Mobile Devices</ul>
+                        <ul class="list-item">Virtualization & Cloud Computing</ul>
+                        <ul class="list-item">Operational Procedures</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Google IT Automation w/ Python}
+                    <br>
+                    Completed: July 2022
+                    <em>
+                        <ul class="list-item">Crash Course on Python</ul>
+                        <ul class="list-item">Introduction to Git & GitHub</ul>
+                        <ul class="list-item">Troubleshooting & Debugging Techniques</ul>
+                        <ul class="list-item">Using Python to Interact w/ the Operating System</ul>
+                        <ul class="list-item">Automating Real-World Tasks w/ Python</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Google IT Support}
+                    <br>
+                    Completed: November 2021
+                    <em>
+                        <ul class="list-item">Technical Support Fundamentals</ul>
+                        <ul class="list-item">Operating Systems</ul>
+                        <ul class="list-item">Computer Networks</ul>
+                        <ul class="list-item">IT Infrastructure Services</ul>
+                        <ul class="list-item">System Administration</ul>
+                        <ul class="list-item">IT Security</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Web Development Bootcamp - The App Brewery}
+                    <br>
+                    Completed: TBA
+                    <em>
+                        <ul class="list-item">HTML</ul>
+                        <ul class="list-item">CSS</ul>
+                        <ul class="list-item">JavaScript</ul>
+                        <ul class="list-item">Bootstrap</ul>
+                        <ul class="list-item">jQuery</ul>
+                        <ul class="list-item">Unix Command Line</ul>
+                        <ul class="list-item">Node.js</ul>
+                        <ul class="list-item">React.js</ul>
+                        <ul class="list-item">MongoDB</ul>
+                        <ul class="list-item">Web3</ul>
+                        <ul class="list-item">DApps</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Web Development Bootcamp - Colt Steele}
+                    <br>
+                    Completed: TBA
+                    <em>
+                        <ul class="list-item">HTML/CSS/JavaScript</ul>
+                        <ul class="list-item">Async/Await</ul>
+                        <ul class="list-item">AJAX</ul>
+                        <ul class="list-item">Bootstrap & Bulma</ul>
+                        <ul class="list-item">Unix Command Line</ul>
+                        <ul class="list-item">Node.js & Express.js</ul>
+                        <ul class="list-item">NPM</ul>
+                        <ul class="list-item">REST</ul>
+                        <ul class="list-item">SQL & NoSQL</ul>
+                        <ul class="list-item">MongoDB & Mongoose</ul>
+                        <ul class="list-item">Authentication</ul>
+                        <ul class="list-item">Common Security Threats</ul>
+                        <ul class="list-item">Cloud Databases</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {JavaScript Bootcamp - Jonas Schmedtmann}
+                    <br>
+                    Completed: TBA
+                    <em>
+                        <ul class="list-item">JavaScript Fundamentals</ul>
+                        <ul class="list-item">Object Oriented Programming</ul>
+                        <ul class="list-item">Asynchronous JavaScript</ul>
+                        <ul class="list-item">NPM</ul>
+                        <ul class="list-item">Parcel</ul>
+                        <ul class="list-item">Babel</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Python Bootcamp - Jose Portilla}
+                    <br>
+                    Completed: TBA
+                    <ul class="list-item">Command Line Basics</ul>
+                    <ul class="list-item">Lists & Dictionaries</ul>
+                    <ul class="list-item">Tuples & Sets</ul>
+                    <ul class="list-item">Functions</ul>
+                    <ul class="list-item">args/kwargs</ul>
+                    <ul class="list-item">Debugging & Error Handling</ul>
+                    <ul class="list-item">Object Oriented Programming</ul>
+                    <ul class="list-item">Inheritance</ul>
+                    <ul class="list-item">Polymorphism</ul>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Flutter App Development w/ Dart Bootcamp - The App Brewery}
+                    <br>
+                    Completed: TBA
+                    <em>
+                        <ul class="list-item">Fundamental Flutter Concepts</ul>
+                        <ul class="list-item">Fundamental Dart Concepts</ul>
+                        <ul class="list-item">Object Oriented Programming</ul>
+                        <ul class="list-item">Control Structures</ul>
+                        <ul class="list-item">Data Structures</ul>
+                        <ul class="list-item">Software Design & Model View Controller</ul>
+                        <ul class="list-item">Networking</ul>
+                        <ul class="list-item">Data Storage</ul>
+                        <ul class="list-item">Authentication</ul>
+                        <ul class="list-item">State Management</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {iOS App Development w/ Swift Bootcamp - The App Brewery}
+                    <br>
+                    Completed: TBA
+                    <ul class="list-item">Xcode/UIKit/SwiftUI</ul>
+                    <ul class="list-item">ARKit/CoreML/CoreData</ul>
+                    <ul class="list-item">Augmented Reality w/ ARKit</ul>
+                    <ul class="list-item">Machine Learning w/ CoreML</ul>
+                    <ul class="list-item">Object Oriented Programming</ul>
+                    <ul class="list-item">Control Structures</ul>
+                    <ul class="list-item">Data Structures</ul>
+                    <ul class="list-item">Software Design & Model View Controller</ul>
+                    <ul class="list-item">Networking</ul>
+                    <ul class="list-item">Persistent Local Data Storage</ul>
+                    <ul class="list-item">Implement In-App Purchases w/ Apple StoreKit</ul>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {TEFL/TESOL}
+                    <br>
+                    Completed: June 2022
+                    <em>
+                        <ul class="list-item">30-Hour Grammar Course</ul>
+                        <ul class="list-item">50-Hour TEFL Methodology Course</ul>
+                        <ul class="list-item">20-Hour Video Teaching Course</ul>
+                        <ul class="list-item">10-Hour Telephone Teaching Course</ul>
+                        <ul class="list-item">10-Hour Teaching Large Classes Course</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <hr class="hr-divide">
+
+
+    <!-- Work/Related Experience -->
+    <div class="container-fluid">
+        <h1 class="section">
+            Work/Related Experience
+        </h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {IT Consultant}<br>{Freelance}
+                    <br>
+                    August 2021 - Present
+                    <em>
+                        <ul class="list-item">Work with individuals and businesses to evaluate IT needs relating to systems and Infrastructure</ul>
+                        <ul class="list-item">Diagnose system problems, inefficiencies, and weaknesses</ul>
+                        <ul class="list-item">Understand client's needs</ul>
+                        <ul class="list-item">Implement technological solutions</ul>
+                        <ul class="list-item">Provide advice for technology 'best practices'</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Web Developer}<br>{Freelance}
+                    <br>
+                    August 2020 - Present
+                    <em>
+                        <ul class="list-item">Design and build websites for individuals and small businesses</ul>
+                        <ul class="list-item">Design and build web applications for clients as needed</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Photographer/Videographer}<br>{DLH Images}
+                    <br>
+                    December 2016 - Present
+                    <em>
+                        <ul class="list-item">Owner of a successful photography/videography business</ul>
+                        <ul class="list-item">Capture and edit photos and videos for clients based on their need</ul>
+                        <ul class="list-item">Have worked for multiple clients including 'Air-Evac Lifeteam'</ul>
+                        <ul class="list-item">My nature and wildlife photography is published in multiple areas</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {UI & UX Developer}<br>{Group Project}
+                    <br>
+                    July 2019 - December 2019
+                    <em>
+                        <ul class="list-item">Designed the front-end for a website focused on the activity/sport of mountain biking</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {IT Specialist & Web Designer}<br>{Farmers Elevator}
+                    <br>
+                    April 2016 - July 2019
+                    <em>
+                        <ul class="list-item">IT Specialist: Setup and service workstations; Computer repairs and maintenance; Install software and hardware components; Network administration;</ul>
+                        <ul class="list-item">Web Designer: Maintain website front-end with HTML/CSS/JavaScript; Maintain website functionality;</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <hr class="hr-divide">
+
+
+    <!-- Skills -->
+    <div class="container-fluid">
+        <h1 class="section">
+            Skills
+        </h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Programming}
+                    <em>
+                        <ul class="list-item">HTML/CSS/JavaScript</ul>
+                        <ul class="list-item">Bootstrap</ul>
+                        <ul class="list-item">jQuery</ul>
+                        <ul class="list-item">React</ul>
+                        <ul class="list-item">Angular</ul>
+                        <ul class="list-item">Node</ul>
+                        <ul class="list-item">Async</ul>
+                        <ul class="list-item">Express</ul>
+                        <ul class="list-item">MongoDB & Mongoose</ul>
+                        <ul class="list-item">REST</ul>
+                        <ul class="list-item">Authentication</ul>
+                        <ul class="list-item">Cloud Databases</ul>
+                        <ul class="list-item">Web3 & DApps</ul>
+                        <ul class="list-item">Object Oriented Programming</ul>
+                        <ul class="list-item">Python</ul>
+                        <ul class="list-item">Mobile App Development</ul>
+                        <ul class="list-item">Flutter & Dart & Swift</ul>
+                        <ul class="list-item">Model View Controller</ul>
+                        <ul class="list-item">NMachine Learning</ul>
+                        <ul class="list-item">Augmented Reality</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Information Technology}
+                    <em>
+                        <ul class="list-item">Microsoft Windows/MacOS/Linux</ul>
+                        <ul class="list-item">iOS/Android</ul>
+                        <ul class="list-item">Configure/Install/Update Operating Systems</ul>
+                        <ul class="list-item">Install & Image Virtual Machines</ul>
+                        <ul class="list-item">Setup & Troubleshoot Peripheral Devices</ul>
+                        <ul class="list-item">Assemble & Disassemble Computing Hardware</ul>
+                        <ul class="list-item">Setup & Support Home and Small Office Networks</ul>
+                        <ul class="list-item">Implement Cybersecurity Controls w/ Help Desk and Technical Support</ul>
+                        <ul class="list-item">Troubleshoot & Support End-Users</ul>
+                        <ul class="list-item">Configure/Maintain/Manage Network Devices</ul>
+                        <ul class="list-item">Troubleshooting Network Problems</ul>
+                        <ul class="list-item">Documentation</ul>
+                        <ul class="list-item">Ticketing Systems</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Microsoft Office}
+                    <em>
+                        <ul class="list-item">MS Word</ul>
+                        <ul class="list-item">MS Excel</ul>
+                        <ul class="list-item">MS PowerPoint</ul>
+                        <ul class="list-item">MS Outlook</ul>
+                        <ul class="list-item">MS Access</ul>
+                        <ul class="list-item">MS Exchange</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Creative Application}
+                    <em>
+                        <ul class="list-item">Adobe Photoshop</ul>
+                        <ul class="list-item">Adobe Illustrator</ul>
+                        <ul class="list-item">Adobe Premiere Pro</ul>
+                        <ul class="list-item">Adobe After Effects</ul>
+                        <ul class="list-item">Adobe Lightroom</ul>
+                        <ul class="list-item">Adobe XD</ul>
+                        <ul class="list-item">Adobe Dreamweaver</ul>
+                        <ul class="list-item">Affinity Photo</ul>
+                        <ul class="list-item">DaVinci Resolve</ul>
+                        <ul class="list-item">Blender</ul>
+                        <ul class="list-item">Unity</ul>
+                        <ul class="list-item">Unreal Engine</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Workplace}
+                    <em>
+                        <ul class="list-item">Great Communication [Written & Verbal]</ul>
+                        <ul class="list-item">Able to Work in a Team or Solo</ul>
+                        <ul class="list-item">Organized</ul>
+                        <ul class="list-item">Critical Thinking & Problem Solving</ul>
+                        <ul class="list-item">Analytical</ul>
+                        <ul class="list-item">Project Management</ul>
+                        <ul class="list-item">Resourceful</ul>
+                        <ul class="list-item">Great Listener</ul>
+                        <ul class="list-item">Always Willing to Help Others</ul>
+                    </em>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Languages}
+                    <em>
+                        <ul class="list-item">English<br>[Native]</ul>
+                        <ul class="list-item">Spanish<br>[4 Semesters - Still Practice - Read & Write w/ Basic Competence]</ul>
+                        <ul class="list-item">Russian<br>[Online Instruction - Still Developing]</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <hr class="hr-divide">
+
+
+    <!-- Education -->
+    <div class="container-fluid">
+        <h1 class="section">
+            Education
+        </h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list">
+                    {Arkansas State University}<br>Master's Level Courses
+                    <br>
+                    2021
+                    <em>
+                        <ul class="list-item">Advanced Data Analysis</ul>
+                    </em>
+                    B.A Political Science
+                    <br>
+                    2014-2019
+                    <ul class="list-item">Concepts of Programming</ul>
+                    <ul class="list-item">Evolution - Biology</ul>
+                    <ul class="list-item">Political Engagement</ul>
+                    <ul class="list-item">Politics of the Developing World</ul>
+                    <ul class="list-item">Middle Eastern Political Systems</ul>
+                    <ul class="list-item">International Politics</ul>
+                    <ul class="list-item">Judicial Process and Legal Reasoning</ul>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <ul class="list">
+                    {New York University}<br>Non-Degree Software Engineering Program
+                    <br>
+                    2020
+                    <em>
+                        <ul class="list-item">Computer Programming in C++</ul>
+                        <ul class="list-item">Object Oriented Design</ul>
+                        <ul class="list-item">Discrete Mathematics</ul>
+                        <ul class="list-item">Data Structures and Algorithms</ul>
+                        <ul class="list-item">Operating Systems</ul>
+                        <ul class="list-item">Computer Networks</ul>
+                    </em>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
 </body>
+
 </html>
