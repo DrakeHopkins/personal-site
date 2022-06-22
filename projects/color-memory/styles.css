@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  background-color: #2B2E4A;
+}
+
+#game-title {
+  font-family: 'VT323', monospace;
+  font-size: 3rem;
+  margin: 5%;
+  color: #C6DE41;
+  line-height: 5rem;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer{
+  color: #C6DE41;
+  font-family: 'VT323', monospace;
+  font-size: 1.25rem;
+}
+
+a{
+  color: #C6DE41;
+}
+
+a:hover{
+  color: white;
+}
